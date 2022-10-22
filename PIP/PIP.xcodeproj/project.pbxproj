@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B55390A2900752500C495D2 /* PIPWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5539092900752500C495D2 /* PIPWeakProxy.m */; };
+		2B75438A28F8412100AA66DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75438928F8412100AA66DC /* AppDelegate.m */; };
+		2B75438D28F8412100AA66DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75438C28F8412100AA66DC /* SceneDelegate.m */; };
+		2B75439528F8412200AA66DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B75439428F8412200AA66DC /* Assets.xcassets */; };
+		2B75439828F8412200AA66DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B75439628F8412200AA66DC /* LaunchScreen.storyboard */; };
+		2B75439B28F8412200AA66DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75439A28F8412200AA66DC /* main.m */; };
+		2B7543A728F8433A00AA66DC /* PIPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543A628F8433A00AA66DC /* PIPHomeViewController.m */; };
+		2B7543AB28F8484700AA66DC /* PIPStandardPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543AA28F8484700AA66DC /* PIPStandardPlayerViewController.m */; };
+		2B7543AE28F8493000AA66DC /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2B7543AD28F8493000AA66DC /* video.mp4 */; };
+		2B7543B128F84AC100AA66DC /* PIPResourcesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543B028F84AC100AA66DC /* PIPResourcesManager.m */; };
+		2B7543B928F9079D00AA66DC /* PIPCustomPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543B828F9079D00AA66DC /* PIPCustomPlayerViewController.m */; };
+		2B7543C128F93ED600AA66DC /* PIPCustomPlayerControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543C028F93ED600AA66DC /* PIPCustomPlayerControlsView.m */; };
+		2B7543C528F946D400AA66DC /* PIPPrivateApiPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543C428F946D400AA66DC /* PIPPrivateApiPlayerView.m */; };
+		2B7543C928F957E500AA66DC /* PIPNormalPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7543C828F957E500AA66DC /* PIPNormalPlayerView.m */; };
+		2B7543CB28F98A1400AA66DC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7543CA28F98A1400AA66DC /* icon.png */; };
+		2B7E1D2528FC3BEF00A7AC4E /* misic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E1D2128FC3BEF00A7AC4E /* misic.mp3 */; };
+		2B7E1D3A28FC47D100A7AC4E /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E1D3728FC47D100A7AC4E /* image1.jpg */; };
+		2B7E1D3B28FC47D100A7AC4E /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E1D3828FC47D100A7AC4E /* image2.jpg */; };
+		2B7E1D3C28FC47D100A7AC4E /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E1D3928FC47D100A7AC4E /* image0.jpg */; };
+		2B7E1D3F28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E1D3E28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.m */; };
+		2BAFB12728F99E3100715A1D /* PIPActivePlayerViewControllerStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAFB12628F99E3100715A1D /* PIPActivePlayerViewControllerStorage.m */; };
+		2BAFB16428FBFD6E00715A1D /* PIPSampleBufferPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAFB16328FBFD6E00715A1D /* PIPSampleBufferPlayerView.m */; };
+		2BAFB16828FC37C100715A1D /* PIPImageSampleBufferPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAFB16728FC37C100715A1D /* PIPImageSampleBufferPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5539082900752500C495D2 /* PIPWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPWeakProxy.h; sourceTree = "<group>"; };
+		2B5539092900752500C495D2 /* PIPWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPWeakProxy.m; sourceTree = "<group>"; };
+		2B75438528F8412100AA66DC /* PIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B75438828F8412100AA66DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B75438928F8412100AA66DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B75438B28F8412100AA66DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B75438C28F8412100AA66DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B75439428F8412200AA66DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B75439728F8412200AA66DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B75439928F8412200AA66DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B75439A28F8412200AA66DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B7543A528F8433A00AA66DC /* PIPHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPHomeViewController.h; sourceTree = "<group>"; };
+		2B7543A628F8433A00AA66DC /* PIPHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPHomeViewController.m; sourceTree = "<group>"; };
+		2B7543A928F8484700AA66DC /* PIPStandardPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPStandardPlayerViewController.h; sourceTree = "<group>"; };
+		2B7543AA28F8484700AA66DC /* PIPStandardPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPStandardPlayerViewController.m; sourceTree = "<group>"; };
+		2B7543AD28F8493000AA66DC /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		2B7543AF28F84AC100AA66DC /* PIPResourcesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPResourcesManager.h; sourceTree = "<group>"; };
+		2B7543B028F84AC100AA66DC /* PIPResourcesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPResourcesManager.m; sourceTree = "<group>"; };
+		2B7543B228F84D9400AA66DC /* PIPPlayerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPPlayerViewControllerDelegate.h; sourceTree = "<group>"; };
+		2B7543B728F9079D00AA66DC /* PIPCustomPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPCustomPlayerViewController.h; sourceTree = "<group>"; };
+		2B7543B828F9079D00AA66DC /* PIPCustomPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPCustomPlayerViewController.m; sourceTree = "<group>"; };
+		2B7543BD28F908A700AA66DC /* PIPPlayerViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPPlayerViewProtocol.h; sourceTree = "<group>"; };
+		2B7543BE28F908C800AA66DC /* PIPPlayerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPPlayerViewDelegate.h; sourceTree = "<group>"; };
+		2B7543BF28F93ED600AA66DC /* PIPCustomPlayerControlsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPCustomPlayerControlsView.h; sourceTree = "<group>"; };
+		2B7543C028F93ED600AA66DC /* PIPCustomPlayerControlsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPCustomPlayerControlsView.m; sourceTree = "<group>"; };
+		2B7543C328F946D400AA66DC /* PIPPrivateApiPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPPrivateApiPlayerView.h; sourceTree = "<group>"; };
+		2B7543C428F946D400AA66DC /* PIPPrivateApiPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPPrivateApiPlayerView.m; sourceTree = "<group>"; };
+		2B7543C728F957E500AA66DC /* PIPNormalPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPNormalPlayerView.h; sourceTree = "<group>"; };
+		2B7543C828F957E500AA66DC /* PIPNormalPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPNormalPlayerView.m; sourceTree = "<group>"; };
+		2B7543CA28F98A1400AA66DC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2B7E1D2128FC3BEF00A7AC4E /* misic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = misic.mp3; sourceTree = "<group>"; };
+		2B7E1D3728FC47D100A7AC4E /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		2B7E1D3828FC47D100A7AC4E /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		2B7E1D3928FC47D100A7AC4E /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		2B7E1D3D28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPSampleBufferDisplayView.h; sourceTree = "<group>"; };
+		2B7E1D3E28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPSampleBufferDisplayView.m; sourceTree = "<group>"; };
+		2BAFB12528F99E3100715A1D /* PIPActivePlayerViewControllerStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPActivePlayerViewControllerStorage.h; sourceTree = "<group>"; };
+		2BAFB12628F99E3100715A1D /* PIPActivePlayerViewControllerStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPActivePlayerViewControllerStorage.m; sourceTree = "<group>"; };
+		2BAFB16228FBFD6E00715A1D /* PIPSampleBufferPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPSampleBufferPlayerView.h; sourceTree = "<group>"; };
+		2BAFB16328FBFD6E00715A1D /* PIPSampleBufferPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPSampleBufferPlayerView.m; sourceTree = "<group>"; };
+		2BAFB16628FC37C100715A1D /* PIPImageSampleBufferPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIPImageSampleBufferPlayerView.h; sourceTree = "<group>"; };
+		2BAFB16728FC37C100715A1D /* PIPImageSampleBufferPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIPImageSampleBufferPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B75438228F8412100AA66DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B553906290074F400C495D2 /* Protpcol */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543BD28F908A700AA66DC /* PIPPlayerViewProtocol.h */,
+				2B7543BE28F908C800AA66DC /* PIPPlayerViewDelegate.h */,
+			);
+			path = Protpcol;
+			sourceTree = "<group>";
+		};
+		2B5539072900751100C495D2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2B5539082900752500C495D2 /* PIPWeakProxy.h */,
+				2B5539092900752500C495D2 /* PIPWeakProxy.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2B75437C28F8412100AA66DC = {
+			isa = PBXGroup;
+			children = (
+				2B75438728F8412100AA66DC /* PIP */,
+				2B75438628F8412100AA66DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B75438628F8412100AA66DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B75438528F8412100AA66DC /* PIP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B75438728F8412100AA66DC /* PIP */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543A128F8414A00AA66DC /* AppDelegate */,
+				2B7543A328F8419E00AA66DC /* Core */,
+				2B7543A228F8419000AA66DC /* Storyboard */,
+				2B7543AC28F8490000AA66DC /* Resources */,
+				2B75439928F8412200AA66DC /* Info.plist */,
+			);
+			path = PIP;
+			sourceTree = "<group>";
+		};
+		2B7543A128F8414A00AA66DC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2B75438828F8412100AA66DC /* AppDelegate.h */,
+				2B75438928F8412100AA66DC /* AppDelegate.m */,
+				2B75438B28F8412100AA66DC /* SceneDelegate.h */,
+				2B75438C28F8412100AA66DC /* SceneDelegate.m */,
+				2B75439A28F8412200AA66DC /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2B7543A228F8419000AA66DC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2B75439628F8412200AA66DC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2B7543A328F8419E00AA66DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543A428F841B300AA66DC /* Home */,
+				2B7543A828F8483700AA66DC /* Player */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2B7543A428F841B300AA66DC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2BAFB12428F99E0B00715A1D /* Manager */,
+				2B7543A528F8433A00AA66DC /* PIPHomeViewController.h */,
+				2B7543A628F8433A00AA66DC /* PIPHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B7543A828F8483700AA66DC /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543B228F84D9400AA66DC /* PIPPlayerViewControllerDelegate.h */,
+				2B7543BC28F9087B00AA66DC /* Custom */,
+				2B7543BB28F9086B00AA66DC /* Standard */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2B7543AC28F8490000AA66DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E1D3028FC477F00A7AC4E /* images */,
+				2B7E1D2128FC3BEF00A7AC4E /* misic.mp3 */,
+				2B7543CA28F98A1400AA66DC /* icon.png */,
+				2B7543AD28F8493000AA66DC /* video.mp4 */,
+				2B75439428F8412200AA66DC /* Assets.xcassets */,
+				2B7543AF28F84AC100AA66DC /* PIPResourcesManager.h */,
+				2B7543B028F84AC100AA66DC /* PIPResourcesManager.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B7543BA28F9084F00AA66DC /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				2B5539072900751100C495D2 /* Tool */,
+				2BAFB16528FC37A000715A1D /* ImageSampleBuffer */,
+				2BAFB16128FBFD5500715A1D /* SampleBuffer */,
+				2B7543C628F957D200AA66DC /* Normal */,
+				2B7543C228F946A400AA66DC /* PrivateApi */,
+				2B553906290074F400C495D2 /* Protpcol */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		2B7543BB28F9086B00AA66DC /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543A928F8484700AA66DC /* PIPStandardPlayerViewController.h */,
+				2B7543AA28F8484700AA66DC /* PIPStandardPlayerViewController.m */,
+			);
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		2B7543BC28F9087B00AA66DC /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543B728F9079D00AA66DC /* PIPCustomPlayerViewController.h */,
+				2B7543B828F9079D00AA66DC /* PIPCustomPlayerViewController.m */,
+				2B7543BF28F93ED600AA66DC /* PIPCustomPlayerControlsView.h */,
+				2B7543C028F93ED600AA66DC /* PIPCustomPlayerControlsView.m */,
+				2B7543BA28F9084F00AA66DC /* PlayerView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		2B7543C228F946A400AA66DC /* PrivateApi */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543C328F946D400AA66DC /* PIPPrivateApiPlayerView.h */,
+				2B7543C428F946D400AA66DC /* PIPPrivateApiPlayerView.m */,
+				2B7E1D3D28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.h */,
+				2B7E1D3E28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.m */,
+			);
+			path = PrivateApi;
+			sourceTree = "<group>";
+		};
+		2B7543C628F957D200AA66DC /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				2B7543C728F957E500AA66DC /* PIPNormalPlayerView.h */,
+				2B7543C828F957E500AA66DC /* PIPNormalPlayerView.m */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		2B7E1D3028FC477F00A7AC4E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E1D3928FC47D100A7AC4E /* image0.jpg */,
+				2B7E1D3728FC47D100A7AC4E /* image1.jpg */,
+				2B7E1D3828FC47D100A7AC4E /* image2.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2BAFB12428F99E0B00715A1D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2BAFB12528F99E3100715A1D /* PIPActivePlayerViewControllerStorage.h */,
+				2BAFB12628F99E3100715A1D /* PIPActivePlayerViewControllerStorage.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2BAFB16128FBFD5500715A1D /* SampleBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				2BAFB16228FBFD6E00715A1D /* PIPSampleBufferPlayerView.h */,
+				2BAFB16328FBFD6E00715A1D /* PIPSampleBufferPlayerView.m */,
+			);
+			path = SampleBuffer;
+			sourceTree = "<group>";
+		};
+		2BAFB16528FC37A000715A1D /* ImageSampleBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				2BAFB16628FC37C100715A1D /* PIPImageSampleBufferPlayerView.h */,
+				2BAFB16728FC37C100715A1D /* PIPImageSampleBufferPlayerView.m */,
+			);
+			path = ImageSampleBuffer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B75438428F8412100AA66DC /* PIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B75439E28F8412200AA66DC /* Build configuration list for PBXNativeTarget "PIP" */;
+			buildPhases = (
+				2B75438128F8412100AA66DC /* Sources */,
+				2B75438228F8412100AA66DC /* Frameworks */,
+				2B75438328F8412100AA66DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PIP;
+			productName = PIP;
+			productReference = 2B75438528F8412100AA66DC /* PIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B75437D28F8412100AA66DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2B75438428F8412100AA66DC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B75438028F8412100AA66DC /* Build configuration list for PBXProject "PIP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B75437C28F8412100AA66DC;
+			productRefGroup = 2B75438628F8412100AA66DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B75438428F8412100AA66DC /* PIP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B75438328F8412100AA66DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7543CB28F98A1400AA66DC /* icon.png in Resources */,
+				2B75439828F8412200AA66DC /* LaunchScreen.storyboard in Resources */,
+				2B7E1D2528FC3BEF00A7AC4E /* misic.mp3 in Resources */,
+				2B7543AE28F8493000AA66DC /* video.mp4 in Resources */,
+				2B7E1D3C28FC47D100A7AC4E /* image0.jpg in Resources */,
+				2B75439528F8412200AA66DC /* Assets.xcassets in Resources */,
+				2B7E1D3A28FC47D100A7AC4E /* image1.jpg in Resources */,
+				2B7E1D3B28FC47D100A7AC4E /* image2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B75438128F8412100AA66DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7543C128F93ED600AA66DC /* PIPCustomPlayerControlsView.m in Sources */,
+				2B7543A728F8433A00AA66DC /* PIPHomeViewController.m in Sources */,
+				2B75438A28F8412100AA66DC /* AppDelegate.m in Sources */,
+				2BAFB12728F99E3100715A1D /* PIPActivePlayerViewControllerStorage.m in Sources */,
+				2B75439B28F8412200AA66DC /* main.m in Sources */,
+				2B7543B928F9079D00AA66DC /* PIPCustomPlayerViewController.m in Sources */,
+				2B7543B128F84AC100AA66DC /* PIPResourcesManager.m in Sources */,
+				2B55390A2900752500C495D2 /* PIPWeakProxy.m in Sources */,
+				2BAFB16828FC37C100715A1D /* PIPImageSampleBufferPlayerView.m in Sources */,
+				2B7543AB28F8484700AA66DC /* PIPStandardPlayerViewController.m in Sources */,
+				2B7543C528F946D400AA66DC /* PIPPrivateApiPlayerView.m in Sources */,
+				2B7543C928F957E500AA66DC /* PIPNormalPlayerView.m in Sources */,
+				2B7E1D3F28FC71EA00A7AC4E /* PIPSampleBufferDisplayView.m in Sources */,
+				2B75438D28F8412100AA66DC /* SceneDelegate.m in Sources */,
+				2BAFB16428FBFD6E00715A1D /* PIPSampleBufferPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B75439628F8412200AA66DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B75439728F8412200AA66DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B75439C28F8412200AA66DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B75439D28F8412200AA66DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B75439F28F8412200AA66DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PIP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.PIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B7543A028F8412200AA66DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PIP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.PIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B75438028F8412100AA66DC /* Build configuration list for PBXProject "PIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B75439C28F8412200AA66DC /* Debug */,
+				2B75439D28F8412200AA66DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B75439E28F8412200AA66DC /* Build configuration list for PBXNativeTarget "PIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B75439F28F8412200AA66DC /* Debug */,
+				2B7543A028F8412200AA66DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B75437D28F8412100AA66DC /* Project object */;
+}
